@@ -8,7 +8,6 @@
 #include <set>
 
 using namespace std;
-//using long long = long long;
 
 long long StoLLtime(string s_t) {
 
