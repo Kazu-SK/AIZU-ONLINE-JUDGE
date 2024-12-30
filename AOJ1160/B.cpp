@@ -8,14 +8,6 @@
 #include <set>
 
 using namespace std;
-//using LL = long long;
-
-//vector<vector<pair<int, int>>> Graph(101);
-//bool visited[101][101];
-//vector < vector<pair<int, int>> Map;
-//map<pair<int, int>, bool> visited;
-//vector<vector<int>> Map;
-//vector<vector<bool>> visited;
 
 int Map[51][51];
 bool visited[51][51];
@@ -86,7 +78,6 @@ int main()
 		}
 
 		cout << land_num << endl;
-
 	}
 
 
