@@ -1,4 +1,11 @@
 ﻿
+/***
+
+表中の島の数を求める。
+
+***/
+
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -86,7 +93,7 @@ int main()
 			for (int w = 1; w <= W; w++) {
 
 				if (world_Map[h][w] == 1) {
-					for (int i = 0; i < 8; i++) {
+					for (int i = 0; i < MOVE_NUM; i++) {
 						int search_h = h + DIFF[i][0];
 						int search_w = w + DIFF[i][1];
 
